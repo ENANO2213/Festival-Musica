@@ -1,9 +1,8 @@
 #Dependencias
 node_modules/
-package-lock-json
 #Configuración y credenciales
 .env
-config-json
+config.json
 dist/
 build/
 #Configuración de editores
