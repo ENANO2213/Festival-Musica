@@ -2,10 +2,12 @@
   "name": "festival-musica",
   "version": "1.0.0",
   "description": "Aprendiendo SASS y NPM",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
   },
   "homepage": "https://github.com/ENANO2213/Festival-Musical#readme",
   "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.1",
     "sass": "^1.86.0"
   }
 }
