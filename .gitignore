@@ -4,5 +4,7 @@ package-lock-json
 #Configuración y credenciales
 .env
 config-json
+dist/
+build/
 #Configuración de editores
 .vscode/

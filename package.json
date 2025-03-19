@@ -1,0 +1,28 @@
+{
+  "name": "festival-musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ENANO2213/Festival-Musical.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Brian Antonio Arias Valgañon @enano2213",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ENANO2213/Festival-Musical/issues"
+  },
+  "homepage": "https://github.com/ENANO2213/Festival-Musical#readme",
+  "devDependencies": {
+    "sass": "^1.86.0"
+  }
+}
