@@ -1,0 +1,60 @@
+//Se importan variables
+@use 'variables' as *;
+//Se configura HTML para 1 rem = 10px aprox. 
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-padding-top: 0rem;
+}
+//Reset del modelo de caja
+*, 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+//Lo que ya se tenia
+body {
+    font-family: $fuente_principal;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: $negro;
+    font-size: 2rem;
+}
+//Estilos a parrafo y su clase
+p {
+    color: $negro;
+    line-height: 1.5;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+//Estilos a Encabezados
+h1, h2, h3 {
+    margin: 0 0 5rem 0;
+    font-weight: 900;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 4.6rem;
+}
+h3 {
+    font-size: 6rem;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+//Selector a los secciones
+body > section {
+    padding: 10rem 0
+}

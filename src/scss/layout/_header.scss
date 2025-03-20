@@ -1,0 +1,22 @@
+@use 'base/variables' as *;
+
+.header{
+    background-color: $verde;
+
+    .contenido-header{
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    h1{
+        color: $blanco;
+        margin: 0;
+    }
+}
+.navegacion-principal {
+    a{
+        color: $blanco;
+    }
+}

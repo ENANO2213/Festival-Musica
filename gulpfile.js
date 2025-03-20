@@ -9,12 +9,12 @@ const sass = gulpSass(dartSass);
 //Función que indica a gulp la ruta de estilos SASS y donde mandar el resultado ya compilado utilizando pipes
 export function css(done) {
   src("src/scss/app.scss")
-    .pipe(sass())
+    .pipe(sass().on("error", sass.logError))
     .pipe(dest("build/css"));
 
   done();
 }
 //Modo watch en Gulp
 export function dev() {
-    watch('src/scss/app.scss', css)
+  watch("src/scss/**/*.scss", css);
 }

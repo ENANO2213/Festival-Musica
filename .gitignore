@@ -1,5 +1,6 @@
 #Dependencias
 node_modules/
+**/_normalize.scss
 #Configuración y credenciales
 .env
 config.json
