@@ -1,0 +1,21 @@
+@use "variables" as v;
+
+@mixin responsive($tamaño) {
+  @if $tamaño == telefono {
+    @media (min-width: v.$telefono) {
+      @content;
+    }
+  } @else if $tamaño == tablet {
+    @media (min-width: v.$tablet) {
+      @content;
+    }
+  } @else if $tamaño == desktop {
+    @media (min-width: v.$desktop) {
+      @content;
+    }
+  } @else if $tamaño == desktopXL {
+    @media (min-width: v.$desktopXL) {
+      @content;
+    }
+  }
+}

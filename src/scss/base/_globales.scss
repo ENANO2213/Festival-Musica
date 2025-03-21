@@ -1,60 +1,62 @@
 //Se importan variables
-@use 'variables' as *;
-//Se configura HTML para 1 rem = 10px aprox. 
+@use "variables" as v;
+//Se configura HTML para 1 rem = 10px aprox.
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    scroll-padding-top: 0rem;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-padding-top: 0rem;
 }
 //Reset del modelo de caja
-*, 
+*,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 //Lo que ya se tenia
 body {
-    font-family: $fuente_principal;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: $negro;
-    font-size: 2rem;
+  font-family: v.$fuente_principal;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: v.$negro;
+  font-size: 2rem;
 }
 //Estilos a parrafo y su clase
 p {
-    color: $negro;
-    line-height: 1.5;
+  color: v.$negro;
+  line-height: 1.5;
 }
 .contenedor {
-    width: 95%;
-    max-width: 120rem;
-    margin: 0 auto;
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 //Estilos a Encabezados
-h1, h2, h3 {
-    margin: 0 0 5rem 0;
-    font-weight: 900;
+h1,
+h2,
+h3 {
+  margin: 0 0 5rem 0;
+  font-weight: 900;
 }
 h1 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 h2 {
-    font-size: 4.6rem;
+  font-size: 4.6rem;
 }
 h3 {
-    font-size: 6rem;
-    text-align: center;
+  font-size: 6rem;
+  text-align: center;
 }
 img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 //Selector a los secciones
 body > section {
-    padding: 10rem 0
+  padding: 10rem 0;
 }
