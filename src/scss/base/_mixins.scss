@@ -1,5 +1,5 @@
 @use "variables" as v;
-
+//Mixin responsivo para los tamaños de pantalla de dispositivos
 @mixin responsive($tamaño) {
   @if $tamaño == telefono {
     @media (min-width: v.$telefono) {
@@ -18,4 +18,22 @@
       @content;
     }
   }
+}
+//Mixin de estilos de clase contenedor
+@mixin contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+//Mixin de un grid con valores predeterminados
+@mixin grid($columnas: 1, $gap: 5rem) {
+  display: grid;
+  grid-template-columns: repeat($columnas, 1fr);
+  gap: $gap;
+}
+//Mixin para quitar viñetas de una lista
+@mixin resetear_lista {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

@@ -6,7 +6,10 @@
     <title>Festival de Música</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="build/css/app.css" />
   </head>
   <body>
@@ -22,16 +25,89 @@
     </header>
     <div class="video">
       <div class="overlay">
-        <div class="coontenedor contenido-video">
+        <div class="contenedor contenido-video">
           <h2>Techno & EDM Festival</h2>
           <p>Julio 2026, CDMX, México</p>
         </div>
       </div>
       <video autoplay mute loop>
-        <source src="video/dj.mp4" type="video/mp4"/>
-        <source src="video/dj.webm" type="video/webm"/>
-        <source src="video/dj.ogv" type="video/ogg"/>
+        <source src="video/dj.mp4" type="video/mp4" />
+        <source src="video/dj.webm" type="video/webm" />
+        <source src="video/dj.ogv" type="video/ogg" />
       </video>
     </div>
+    <section class="sobre-festival">
+      <div class="imagen">
+        <img src="src/img/imagen_dj.jpg" alt="Sobre Festival" />
+      </div>
+      <div class="contenido-festival">
+        <h2>Techno & EDM Festival</h2>
+        <p class="fecha">Julio 2026, CDMX, México</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nihil
+          repudiandae? Voluptates aut quam recusandae vero nostrum amet laborum
+          quas qui odit voluptatem maiores maxime, quaerat, deserunt at, ut in?
+        </p>
+      </div>
+    </section>
+    <section id="lineup" class="lineup">
+      <h3>Line Up</h3>
+      <p class="dia">Viernes 21</p>
+      <div class="escenarios-contenedor">
+        <div class="escenario bg-amarillo">
+          <p class="nombre-escenario">Techno</p>
+          <ul class="calendario">
+            <li>24:00 | <span>Adam Beyer</span></li>
+            <li>22:00 | <span>Carl Cox</span></li>
+            <li>20:00 | <span>HI-LO</span></li>
+            <li>19:00 | <span>Amelie Lens</span></li>
+            <li>18:00 | <span>CamelPhat</span></li>
+            <li>17:00 | <span>ARTBAT</span></li>
+          </ul>
+        </div>
+        <!--.escenario amarillo-->
+        <div class="escenario bg-verde">
+          <p class="nombre-escenario">EDM</p>
+          <ul class="calendario">
+            <li>24:00 | <span>David Guetta</span></li>
+            <li>22:00 | <span>Tïesto</span></li>
+            <li>20:00 | <span>Martin Garrix</span></li>
+            <li>19:00 | <span>Steve Aoki</span></li>
+            <li>18:00 | <span>Afrojack</span></li>
+            <li>17:00 | <span>Vintage Culture</span></li>
+          </ul>
+        </div>
+        <!--.escenario verde-->
+      </div>
+      <!--.escenarios-contenedor -->
+      <p class="dia">Sábado 22</p>
+      <div class="escenarios-contenedor">
+        <div class="escenario bg-verde">
+          <p class="nombre-escenario">Techno</p>
+          <ul class="calendario">
+            <li>24:00 | <span>Reinier Zonneveld</span></li>
+            <li>22:00 | <span>Eric Prydz</span></li>
+            <li>20:00 | <span>Deadmau5</span></li>
+            <li>19:00 | <span>Joris Voorn</span></li>
+            <li>18:00 | <span>Nina Kraviz</span></li>
+            <li>17:00 | <span>Argy</span></li>
+          </ul>
+        </div>
+        <!--.escenario verde-->
+        <div class="escenario bg-amarillo">
+          <p class="nombre-escenario">EDM</p>
+          <ul class="calendario">
+            <li>24:00 | <span>Armin Van Buuren</span></li>
+            <li>22:00 | <span>Calvin Harris</span></li>
+            <li>20:00 | <span>Hardwell</span></li>
+            <li>19:00 | <span>Above & Beyond</span></li>
+            <li>18:00 | <span>Diplo</span></li>
+            <li>17:00 | <span>Steve Angello</span></li>
+          </ul>
+        </div>
+        <!--.escenario amarillo-->
+      </div>
+      <!--.escenarios-contenedor -->
+    </section>
   </body>
 </html>
