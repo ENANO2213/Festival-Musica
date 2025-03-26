@@ -44,7 +44,6 @@
   li:nth-child(odd) {
     /*Opción deprecada: background-color: lighten(v.$amarillo, 15%);*/
     /*Opción 2: COLOR.ADJUST() -> background-color: color.adjust(v.$amarillo, $lightness: 10%);;*/
-    /**/
     background-color: color.adjust(v.$amarillo, $lightness: 10%);
   }
 }
