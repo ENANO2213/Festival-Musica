@@ -39,7 +39,7 @@
   }
 }
 
-.btn-cerrar{
+.btn-cerrar {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -67,6 +67,6 @@
   }
   100% {
     opacity: 0;
-    visibility: hidden;//Modal se vuelve completamente invisible y evita que los navegadores lo rendericen
+    visibility: hidden; //Modal se vuelve completamente invisible y evita que los navegadores lo rendericen
   }
 }
